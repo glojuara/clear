@@ -1,0 +1,23 @@
+server:
+   port: 3000
+   servlet:
+      context-path: /clear
+      
+selenium:
+   driver:   
+      name: Chrome
+      path: src/main/resources/chromedriver 
+
+spring:
+   data:
+      mongodb:
+         host: 127.0.0.1
+         port: 27017
+         database: clear
+         
+telegram:
+   bot:
+      userName: BuriloBot
+      token: 624407609:AAHMulXwIoAFC3jvWXjbpJWsOw5BP0LsXeU
+
+ 
